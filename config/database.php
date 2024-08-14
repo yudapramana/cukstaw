@@ -1,9 +1,9 @@
 <?php
 // deklarasi parameter koneksi database
 $host     = "localhost";              // server database, default “localhost” atau “127.0.0.1”
-$username = "root";                   // username database, default “root”
-$password = "root";                       // password database, default kosong
-$database = "db_antrian";             // memilih database yang akan digunakan
+$username = "kemena10_antrian";                   // username database, default “root”
+$password = "antriankemenagpessel";                       // password database, default kosong
+$database = "kemena10_antrian";             // memilih database yang akan digunakan
 
 // buat koneksi database
 $mysqli = mysqli_connect($host, $username, $password, $database);
